@@ -20,13 +20,26 @@
         width:30%;
     }
 
-    /* section strategic */
+    /* section benefit */
+
+    .row-benefits{
+        display:flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+        
+    }
+
+    .col-benefits{
+        width: calc(100% / 2 - 10px);
+        margin-bottom: 1rem;
+        /* gap: 10px; */
+    }
 
 
 
 
 
-}
+}   
 
 
 /* DESKTOP */
@@ -76,6 +89,21 @@
     width:45%
     }
 
+
+    /* section benefit */
+
+    .row-benefits{
+        display:flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+        
+    }
+
+    .col-benefits{
+        width: calc(100% / 3 - 10px);
+        margin-bottom: 1rem;
+        /* gap: 10px; */
+    }
 
 }
 
