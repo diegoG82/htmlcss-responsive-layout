@@ -5,8 +5,86 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* FONT: */
 
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+/* HEADER */
+
+header{
+    height: 50px;
+    width:100%;
+    background-color: rgb(0, 132, 253);
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    line-height: 50px;
+    color: white;
+}
+
+.logo-header{
+    font-size: 1.5rem;
+    margin-left:1rem;
+}
+
+.icon-header{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+.list-header{
+    display: none;
+}
+
+/* MAIN */
+
+/* features section */
+
+.features{
+   
+
+    /* debug */
+    border: 1px solid black;
+
+}
+
+.contaniner-features{
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+.row{
+    width: 80%;
+    margin:20px auto;
+
+    /* debug */
+    border: 1px solid red;
+}
+
+.col{
+    background-color: rgb(181, 221, 255);
+    margin-bottom: 1rem;
+
+    /* debug */
+    width:100%;
+    height: 200px;
+    border: 1px solid black;    
+}
+
+
+

@@ -2,6 +2,24 @@
 
 @media screen and (min-width:768px){
 
+    .row{
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-between;
+    }
+
+    .col{
+        width: calc(100% / 3);
+    }
+
+    .col.large{
+        width: 65%;
+     }
+
+     .col.small{
+        width:30%;
+    }
+
 }
 
 
@@ -9,4 +27,30 @@
 
 @media screen and (min-width:992px){
 
+   
+   .container-header{
+    width: 80%;
+    margin:0 auto;
+    }
+   
+    .icon-header{
+            display:none;   
+    }
+
+    .logo-header{
+        margin:0;
+    }
+
+   .ul-header{
+       display: flex;
+       list-style: none;
+      gap: 0.5rem;
+    }
+
+    .list-header{
+        display:block;
+    }
+    
+
 }
+
