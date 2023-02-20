@@ -69,8 +69,8 @@ header{
 }
 
 .row{
-    width: 80%;
-    margin:20px auto;
+    width: 90%;
+    margin:10px auto;
 
     /* debug */
     border: 1px solid red;
@@ -78,6 +78,7 @@ header{
 
 .col{
     background-color: rgb(181, 221, 255);
+    border-radius: 20px;
     margin-bottom: 1rem;
 
     /* debug */
@@ -86,5 +87,50 @@ header{
     border: 1px solid black;    
 }
 
+/* strategic section */
 
+.container-strategic{
+    background-color: rgb(151, 146, 228);
+    margin: 20px auto;
+}
 
+.planning{
+    width:90%;
+    margin:20px auto;
+
+    /* debug */
+    height: 200px;
+    border: 1px solid black;
+}
+
+.developement{
+    width:90%;
+    margin: 20px auto;
+    background-color: white ;
+
+     /* debug */
+     height: 200px;
+     border:1px solid black;
+}
+
+/* partners section */
+
+.partners-text{
+    text-align: center;
+    margin: 10px auto;
+    width:90%;
+}
+
+.row-partners{
+    margin: 10px auto;
+}
+
+.col-partners{
+    background-color: rgb(151, 146, 228) ;
+    margin:20px auto;
+    width:90%;
+
+    /* debug */
+    height: 200px;
+    border:1px solid black;
+}
