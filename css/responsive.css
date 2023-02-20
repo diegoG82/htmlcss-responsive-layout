@@ -35,6 +35,16 @@
         /* gap: 10px; */
     }
 
+    /* about us section */
+
+    .row-aboutus{
+        margin: 0 auto;
+        width:90%;
+        display: flex; 
+    }
+
+    
+
 
 
 
