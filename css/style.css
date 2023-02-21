@@ -79,7 +79,7 @@ header{
 
 .row{
     width: 90%;
-    margin:10px auto;
+    margin:0 auto;
 }
 
 .col{
@@ -127,7 +127,7 @@ header{
 .container-strategic{
     background-color: rgb(151, 146, 228);
     margin: 0 auto;
-    padding-bottom: 2rem;
+    padding: 3rem 0;
         }
 
 .planning{
@@ -336,8 +336,7 @@ header{
 
 .getstarted-container{
     background-color: rgb(151, 146, 228);
-  
-}
+  }
 
 .getstarted-text{
     width:90%;
