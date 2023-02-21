@@ -264,7 +264,7 @@ header{
 
 .benefits-text{
     text-align: center;
-    margin: 10px auto;
+    margin: 0 auto;
     width: 90%;
 }
 
@@ -274,7 +274,7 @@ header{
 
 .row-benefits{
     width: 90%;
-    margin: 10px auto;
+    margin: 0    auto;
 }
 
 .col-benefits{
