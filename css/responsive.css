@@ -20,6 +20,22 @@
         width:30%;
     }
 
+
+    .container-image img{
+        margin-right: 11rem;
+    }
+
+    /* section strategic */
+
+    .planning-text h3{
+    font-size: 3rem;
+    }
+
+    .planning-text p{
+    font-size: 0.8rem;
+    }
+
+
     /* section benefit */
 
     .row-benefits{
@@ -28,6 +44,18 @@
        justify-content: space-between;
         
     }
+
+    /* section partners */
+
+    .col-partners{
+        display:flex;
+    }
+
+    .partners-img img{
+        margin-left:1rem;
+    }
+    
+  
 
     .col-benefits{
         width: calc(100% / 2 - 10px);
@@ -42,12 +70,6 @@
         width:90%;
         display: flex; 
     }
-
-    
-
-
-
-
 
 }   
 
@@ -82,22 +104,57 @@
     }
     
 
-    /* strategic section */
+    /* features section */
+
+     
+
+    .large{
+        display: flex;
+    }
+
+    .container-image{
+        width:50%;
+        margin-top:  8rem;
+    }
+   
+
+    .container-image img{   
+        align-items: end;
+    }
+
+     
+     /* strategic section */
 
     .container-strategic{
     display: flex;
     margin: 10px auto;
-    width: 90%;
+    width: 100%;
     justify-content: center;
+    height:900px;
     }
 
     .planning{
-    width:45%
+    width:45%;
+    margin-top:5rem;
+    }
+
+    .planning-image{
+        margin-bottom:5rem;
     }
 
     .developement{
-    width:45%
+    width:45%;
+    height:650px;
+    margin-top:12rem;
     }
+
+    /* section partners */
+
+        .container-partners{
+            width:80%;
+            margin: 0 auto;
+        }
+  
 
 
     /* section benefit */
