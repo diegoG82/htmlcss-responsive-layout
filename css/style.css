@@ -180,7 +180,7 @@ header{
 .developement-text{
     color: black;
     text-align: center;
-    margin: 0  auto;
+    margin: 0 auto;
     padding: 1rem;
 }
 
@@ -259,6 +259,7 @@ header{
 
 .container-benefits{
     background-color: rgb(151, 146, 228);
+    padding-bottom:1rem;    
 
 }
 
@@ -315,7 +316,7 @@ header{
 }
 
 .aboutus-text{
-    margin: 10px auto;
+    margin: 0 auto;
     width: 90%;
     padding:2rem;
 }
@@ -328,7 +329,7 @@ header{
 
 
 .aboutus-bottom{
-    margin:10px auto;
+    margin:0 auto;
     width:90%;
     padding: 2rem;
 }
