@@ -20,7 +20,6 @@
         width:30%;
     }
 
-
     .container-image img{
         margin-right: 11rem;
     }
@@ -120,28 +119,26 @@
 
     /* features section */
 
-     
-
     .large{
         display: flex;
     }
 
-    .container-image{
-        width:50%;
-        margin-top:  8rem;
+    .container-textlarge{
+        width:60%
+
     }
+
+    .container-image img{
+        margin-top:8rem;
+        width:100%;
+    }
+  
    
-
-    .container-image img{   
-        align-items: end;
-    }
-
-     
-     /* strategic section */
+    /* strategic section */
 
     .container-strategic{
     display: flex;
-    margin: 10px auto;
+    margin: 0    auto;
     width: 100%;
     justify-content: center;
     height:900px;
@@ -152,8 +149,10 @@
     margin-top:5rem;
     }
 
+ 
+
     .planning-image{
-        margin-bottom:5rem;
+    margin-bottom:3rem;
     }
 
     .developement{
@@ -162,21 +161,23 @@
     margin-top:12rem;
     }
 
+
+
     /* section partners */
 
-        .container-partners{
-            width:80%;
-            margin: 0 auto;
-        }
+    .container-partners{
+    width: 100%;
+    margin: 0 auto;
+    }
   
 
 
     /* section benefit */
 
     .row-benefits{
-        display:flex;
-        flex-wrap: wrap;
-       justify-content: space-between;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
         
     }
 
@@ -185,6 +186,28 @@
         margin-bottom: 1rem;
         /* gap: 10px; */
     }
+
+    /* section aboutus */
+
+    .aboutus-text h2{
+        font-size: 3rem;
+    }
+
+    .aboutus-bottom p{
+        width:60%
+    }
+
+     /* get started section */
+
+     .getstarted-text{
+        width: 60%;
+    }
+
+    /* footer section */
+
+    .footer-text{
+        width:50%
+        }
 
 }
 

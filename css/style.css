@@ -80,17 +80,34 @@ header{
 .row{
     width: 90%;
     margin:0 auto;
-}
+    padding-top: 1rem;
+}   
 
 .col{
     background-color: rgb(181, 221, 255);
     border-radius: 25px;
-    margin-bottom: 1rem;
+
+}
+ .large {
+    margin-bottom: 2rem;
+}
+.small{
+    margin-bottom: 2rem;
 }
 
 .container-text{
     padding: 2rem;
     font: 1.2rem;
+}
+
+.container-textlarge{
+    padding: 2rem;
+    font: 1.2rem;
+    }
+
+.container-textlarge h3{
+    color:rgb(0, 132, 253)  
+
 }
 
 .container-text h3{
@@ -190,6 +207,7 @@ header{
 
 .partners-title h4{
    margin-bottom:1rem;
+   color: rgb(90, 111, 128);
 }
 
 
@@ -205,7 +223,7 @@ header{
 }
 
 .row-partners{
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .col-partners{
@@ -242,41 +260,44 @@ header{
 .container-benefits{
     background-color: rgb(151, 146, 228);
 
-    /* debug */
-    border: 1px solid black;
 }
 
 .benefits-text{
     text-align: center;
     margin: 10px auto;
     width: 90%;
-   }
+}
 
    .benefits-text h2{
     color: white;
-   }
+ }
 
 .row-benefits{
     width: 90%;
     margin: 10px auto;
-    }
+}
 
 .col-benefits{
     background-color: white;
     border-radius: 25px;
     margin-bottom: 1rem;
     padding:2rem;
-  }
+}
 
-.col-benefits h2, h3 {
+.col-benefits h2 {
     color: rgb(151, 146, 228);
     margin-bottom: 0.5rem;
-       }
+}
 
- .col-benefits p{
+.col-benefits h3 {
+    color: rgb(151, 146, 228);
+    margin-bottom: 0.5rem;
+}
+
+.col-benefits p{
     color:rgb(90, 111, 128);
     font-size: 0.8rem;
- }      
+}      
 
  .col-benefits button{
     background-color: rgb(151, 146, 228);
@@ -285,7 +306,7 @@ header{
     border:none; 
     border-radius: 25px;
     margin-top: 1rem;
- }
+}
 
 /* about us section */
 
